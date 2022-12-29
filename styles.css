@@ -1,2 +1,64 @@
 
 /* Your CSS Code here. */
+.container{
+    background-color: rgb(209, 183, 151);
+    border: 5px solid rgb(59, 218, 59);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    width: 500px;
+    height: 500px;
+    row-gap: 5px;
+    padding: 4px;
+
+}
+.row1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+    
+}
+.row2{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    border: 2px solid dotted gray;
+    column-gap: 20%;
+    background-color: rgb(65, 34, 34);
+    justify-content: end;
+    
+}
+.row3{
+    
+    grid-template-columns: 30% 30%;
+    display: grid;
+    background-color:rgb(65, 34, 34);
+    justify-content: center;
+    
+}
+.col1-1{
+    background-color: rgb(52, 129, 94);
+    border: 2px dotted;
+    
+}
+.col2-1{
+    background-color: rgb(225, 177, 217);
+    border: 2px dotted;
+    
+}
+.col1-2{
+    background-color: rgb(228, 103, 57);
+    border: 2px dotted;
+}
+.col2-2{
+
+    background-color: rgb(96, 218, 177);
+    border: 2px dotted;
+}
+.col1-3{
+    background-color: rgb(223, 113, 173);
+    border: 2px dotted;
+}
+.col2-3{
+    background-color: rgb(127, 182, 127);
+    border: 2px dotted;
+}
